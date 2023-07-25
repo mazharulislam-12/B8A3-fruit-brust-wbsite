@@ -20,6 +20,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    
 
     <!-- link tailwind and daisyUi  -->
 
@@ -98,13 +99,73 @@
             </a>
           </div>
           <div class="navbar-end">
-            <input  type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto" />
+            <input  type="text" placeholder="Search here" class="invisible md:visible input input-bordered w-24 md:w-auto" />
 
             </div>
         </div>
       </nav>
       <!-- navbar section end -->
+
+      <!-- slider section start -->
+      
+      <div class="carousel w-full my-14">
+        <div id="slide1" class="carousel-item relative w-full ">
+          <img src="./images/banner1.png" class="w-full bg-gradient-to-r from-[#121212 ] to-[#12121200]" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+
+            <div class="text-white text-center ">
+                <h2 class="text-2xl md:text-3xl lg:text-7xl font-extrabold  ">Exotic tastes at your <br> doorstep</h2>
+                <p class="text-xl mb-3">We supply highly quality organic products</p>
+                <button class="bg-[#F85559] px-5 py-4 rounded-xl text-xl">Shop Now</button>
+            </div>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="./images/banner2.png" class="w-full bg-gradient-to-r from-[#121212 ] to-[#12121200]" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <div class="text-white text-center -mt-40">
+                <h2 class="text-7xl font-extrabold mb-3">Exotic tastes at your <br> doorstep</h2>
+                <p class="text-xl mb-3">We supply highly quality organic products</p>
+                <button class="bg-[#F85559] px-5 py-4 rounded-xl text-xl">Shop Now</button>
+            </div>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="./images/banner3.png" class="w-full bg-gradient-to-r from-[#121212 ] to-[#12121200]" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <div class="text-white text-center -mt-40">
+                <h2 class="text-7xl font-extrabold mb-3">Exotic tastes at your <br> doorstep</h2>
+                <p class="text-xl mb-3">We supply highly quality organic products</p>
+                <button class="bg-[#F85559] px-5 py-4 rounded-xl text-xl">Shop Now</button>
+            </div>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="./images/banner4.png" class="w-full bg-gradient-to-r from-[#121212 ] to-[#12121200]" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <div class="text-white text-center -mt-40">
+                <h2 class="text-7xl font-extrabold mb-3">Exotic tastes at your <br> doorstep</h2>
+                <p class="text-xl mb-3">We supply highly quality organic products</p>
+                <button class="bg-[#F85559] px-5 py-4 rounded-xl text-xl">Shop Now</button>
+            </div>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- slider section end -->
+
     </header>
+
     <!-- header section end -->
+
+    
   </body>
 </html>
