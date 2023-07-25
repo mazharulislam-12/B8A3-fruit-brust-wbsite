@@ -131,7 +131,9 @@
               <p class="text-xl mb-3">
                 We supply highly quality organic products
               </p>
-              <button class="bg-[#F85559] px-5 py-4 rounded-xl text-xl">
+              <button
+                class="bg-[#F85559] px-5 py-4 rounded-xl text-xl text-white"
+              >
                 Shop Now
               </button>
             </div>
@@ -219,7 +221,7 @@
       <!-- banner image section start -->
       <section class="">
         <div
-          class="flex mx-auto bg-white relative -top-40 w-9/12 px-10 py-8 rounded-lg invisible lg:visible"
+          class="flex mx-auto bg-white relative -top-40 w-9/12 px-10 py-8 rounded-lg invisible lg:visible shadow-sm"
         >
           <div class="text-center">
             <img src="./images/fruit1.png" alt="" />
@@ -245,51 +247,167 @@
       </section>
       <!-- banner image section  end-->
 
-
       <!-- Deal of the day section start -->
       <section>
-        <div class="flex justify-between items-center">
-            <div class="">
-                <h2 class="text-[#121212] text-5xl font-extralight mb-3">Deal of the day</h2>
-                <p class="text-[#RRGGBBAA] text-xl">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
-            </div>
+        <div
+          class="flex flex-col md:flex-row justify-between items-center gap-y-5"
+        >
+          <div class="text-center lg:text-start">
+            <h2 class="text-[#121212] text-5xl font-extralight mb-3">
+              Deal of the day
+            </h2>
+            <p class="text-[#RRGGBBAA] text-xl">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical <br />
+              Latin literature from 45 BC, making it over 2000 years old.
+            </p>
+          </div>
 
-            <div class="">
-                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-                    <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
-                        <span style="--value:15;"></span>
-                      </span>
-                      days
-                    </div> 
-                    <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
-                        <span style="--value:10;"></span>
-                      </span>
-                      hours
-                    </div> 
-                    <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
-                        <span style="--value:24;"></span>
-                      </span>
-                      min
-                    </div> 
-                    <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
-                        <span style="--value:26;"></span>
-                      </span>
-                      sec
-                    </div>
-                  </div>
+          <div class="">
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+              <div class="flex flex-col">
+                <span class="countdown text-3xl lg:text-5xl">
+                  <span style="--value: 29"></span>
+                </span>
+                days
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown text-3xl lg:text-5xl">
+                  <span style="--value: 10"></span>
+                </span>
+                hours
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown text-3xl lg:text-5xl">
+                  <span style="--value: 24"></span>
+                </span>
+                min
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown text-3xl lg:text-5xl">
+                  <span style="--value: 26"></span>
+                </span>
+                sec
+              </div>
             </div>
+          </div>
         </div>
 
-        <!-- card  -->
+        <!-- card 01 -->
 
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-10 gap-5">
+          <div
+            class="card bg-base-100 shadow-sm border border-solid border-[#RRGGBBAA] px-4"
+          >
+            <figure class="px-10 pt-10">
+              <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center gap-4">
+              <h2 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h2>
+              <p class="text-[#12121299] text-base">Apples</p>
+              <div class="text-[#F85559] text-xl">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="text-[#F85559] text-lg">Details</p>
+            </div>
+          </div>
+          <!-- card 02 -->
+          <div
+            class="card bg-base-100 shadow-sm px-4 border border-solid border-[#RRGGBBAA]"
+          >
+            <figure class="px-10 pt-10">
+              <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center gap-4">
+              <h2 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h2>
+              <p class="text-[#12121299] text-base">Apples</p>
+              <div class="text-[#F85559] text-xl">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="text-[#F85559] text-lg">Details</p>
+            </div>
+          </div>
+          <!-- card 03 -->
+          <div
+            class="card bg-base-100 shadow-sm px-4 border border-solid border-[#RRGGBBAA]"
+          >
+            <figure class="px-10 pt-10">
+              <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center gap-4">
+              <h2 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h2>
+              <p class="text-[#12121299] text-base">Apples</p>
+              <div class="text-[#F85559] text-xl">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="text-[#F85559] text-lg">Details</p>
+            </div>
+          </div>
+          <!-- card 04 -->
+          <div
+            class="card bg-base-100 shadow-sm px-4 border border-solid border-[#RRGGBBAA]"
+          >
+            <figure class="px-10 pt-10">
+              <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center gap-4">
+              <h2 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h2>
+              <p class="text-[#12121299] text-base">Apples</p>
+              <div class="text-[#F85559] text-xl">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p class="text-[#F85559] text-lg">Details</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <button class="bg-[#F85559] px-5 py-4 rounded-xl text-xl text-white">
+            Shop Now
+          </button>
+        </div>
       </section>
       <!-- Deal of the day section end -->
 
-
+      <!-- Meet the team section start -->
+      <section>
+        <div>
+          <div
+            class="hero min-h-screen"
+            style="
+              background-image: url(./images/banner1.png);
+            "
+          >
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                <p class="mb-5">
+                    Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                </p>
+               
+              </div>
+            </div>
+          </div>
+          >
+        </div>
+      </section>
+      <!-- Meet the team section end -->
     </main>
   </body>
 </html>
