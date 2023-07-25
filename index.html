@@ -50,11 +50,11 @@
   </head>
   <body class="loto-font">
     <!-- header section start -->
-    <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-2">
+    <header class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-20 py-5 my-2">
       <!-- navbar section start -->
-      <nav>
-        <div class="navbar bg-base-100">
-          <div class="navbar-start">
+      <nav class="">
+        <div class="navbar bg-base-100 bg-[#F85559] rounded-full">
+          <div class="navbar-center">
             <div class="dropdown">
               <label tabindex="0" class="btn btn-ghost lg:hidden">
                 <svg
@@ -74,7 +74,7 @@
               </label>
               <ul
                 tabindex="0"
-                class="items-start menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="text-lg text-white items-start menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
@@ -83,18 +83,24 @@
               </ul>
             </div>
           </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1 items-start">
+          <div class="navbar-start hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 items-start  text-lg text-white">
               <li><a>Home</a></li>
               <li><a>About Us</a></li>
               <li><a>Shop</a></li>
               <li><a>All Fruits</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-          <div class="navbar-end">
-            <a class="btn">Button</a>
+          <div class="items-center">
+            <a class="btn bg-[#F85559] border-none normal-case  h-14  ">
+                <img class="h-12" src="./images/logo.png" alt="">
+                <p class="text-4xl text-white">Fruit Burst</p>
+            </a>
           </div>
+          <div class="navbar-end">
+            <input  type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto" />
+
+            </div>
         </div>
       </nav>
       <!-- navbar section end -->
