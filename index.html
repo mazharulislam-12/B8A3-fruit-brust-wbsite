@@ -74,7 +74,7 @@
               </label>
               <ul
                 tabindex="0"
-                class="text-lg text-white items-start menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="text-lg text-white items-start menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 hover:text-black"
               >
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
@@ -85,7 +85,7 @@
           </div>
           <div class="navbar-start hidden lg:flex">
             <ul
-              class="menu menu-horizontal px-1 items-start text-lg text-white"
+              class="menu menu-horizontal px-1 items-start text-lg text-white hover:text-black"
             >
               <li><a>Home</a></li>
               <li><a>About Us</a></li>
@@ -99,12 +99,11 @@
               <p class="text-4xl text-white">Fruit Burst</p>
             </a>
           </div>
+
           <div class="navbar-end">
             <input
-              type="text"
-              placeholder="Search here"
-              class="invisible md:visible input input-bordered w-24 md:w-auto"
-            />
+              type="text" placeholder="Search here"class="invisible md:visible input input-bordered w-24 md:w-auto"/>
+              <span class="-ml-6 mr-6" ><i class="fa-solid fa-magnifying-glass text-xl"></i></span>
           </div>
         </div>
       </nav>
@@ -252,8 +251,9 @@
         <div
           class="flex flex-col md:flex-row justify-between items-center gap-y-5"
         >
+        <!-- heading  -->
           <div class="text-center lg:text-start">
-            <h2 class="text-[#121212] text-5xl font-extralight mb-3">
+            <h2 class="text-[#121212] text-5xl font-extrabold mb-3">
               Deal of the day
             </h2>
             <p class="text-[#RRGGBBAA] text-xl">
@@ -389,63 +389,80 @@
         <div>
           <div
             class="hero h-[650px] bg-gradient-to-r from-[#121212B3] to-[#000000cf]"
-            style="background-image: url(./images/banner1.png) ;">
+            style="background-image: url(./images/banner1.png)"
+          >
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="">
-                <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+                <h1 class="mb-5 text-5xl font-extrabold">Meet the team section</h1>
                 <p class="mb-10 text-white">
-                    Contrary to popular belief, is not simply random text. It has roots in a piece <br>of classical Latin literature from 45 BC, making it over 2000 years old.
+                  Contrary to popular belief, is not simply random text. It has
+                  roots in a piece <br />of classical Latin literature from 45
+                  BC, making it over 2000 years old.
                 </p>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-auto">
-                    <!-- member 01 -->
-                    <div class="mx-auto">
-                        <img src="images/member1.png" alt="" class=" mb-6">
-                        <h4 class="text-2xl font-bold text-white mb-4">Awlad Hossain</h4>
-                        <p class="text-white text-base font-medium mb-4">Fruits Expert</p>
-                        <div class="text-2xl text-white mx-auto ">
-                            <i class="fa-brands fa-facebook mr-2"></i>
-                            <i class="fa-brands fa-twitter mr-2"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
+                <div
+                  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-auto"
+                >
+                  <!-- member 01 -->
+                  <div class="mx-auto">
+                    <img src="images/member1.png" alt="" class="mb-6" />
+                    <h4 class="text-2xl font-bold text-white mb-4">
+                      Awlad Hossain
+                    </h4>
+                    <p class="text-white text-base font-medium mb-4">
+                      Fruits Expert
+                    </p>
+                    <div class="text-2xl text-white mx-auto">
+                      <i class="fa-brands fa-facebook mr-2"></i>
+                      <i class="fa-brands fa-twitter mr-2"></i>
+                      <i class="fa-brands fa-instagram"></i>
                     </div>
-                    <!-- member 02 -->
-                    <div class="mx-auto">
-                        <img src="images/member2.png" alt="" class="mb-6">
-                        <h4 class="text-2xl font-bold text-white mb-4">Safia Chowdhury</h4>
-                        <p class="text-white text-base font-medium mb-4">Fruits Expert</p>
-                        <div class="text-2xl text-white mx-auto">
-                            <i class="fa-brands fa-facebook mr-2"></i>
-                            <i class="fa-brands fa-twitter mr-2"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
+                  </div>
+                  <!-- member 02 -->
+                  <div class="mx-auto">
+                    <img src="images/member2.png" alt="" class="mb-6" />
+                    <h4 class="text-2xl font-bold text-white mb-4">
+                      Safia Chowdhury
+                    </h4>
+                    <p class="text-white text-base font-medium mb-4">
+                      Fruits Expert
+                    </p>
+                    <div class="text-2xl text-white mx-auto">
+                      <i class="fa-brands fa-facebook mr-2"></i>
+                      <i class="fa-brands fa-twitter mr-2"></i>
+                      <i class="fa-brands fa-instagram"></i>
                     </div>
-                    <!-- member 03 -->
-                    <div class="mx-auto">
-                        <img src="images/member3.png" alt="" class="mb-6">
-                        <h4 class="text-2xl font-bold text-white" mb-4>Rokib Hossain</h4>
-                        <p class="text-white text-base font-medium mb-4">Fruits Expert</p>
-                        <div class="text-2xl text-white mx-auto">
-                            <i class="fa-brands fa-facebook mr-2"></i>
-                            <i class="fa-brands fa-twitter mr-2"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
+                  </div>
+                  <!-- member 03 -->
+                  <div class="mx-auto">
+                    <img src="images/member3.png" alt="" class="mb-6" />
+                    <h4 class="text-2xl font-bold text-white" mb-4>
+                      Rokib Hossain
+                    </h4>
+                    <p class="text-white text-base font-medium mb-4">
+                      Fruits Expert
+                    </p>
+                    <div class="text-2xl text-white mx-auto">
+                      <i class="fa-brands fa-facebook mr-2"></i>
+                      <i class="fa-brands fa-twitter mr-2"></i>
+                      <i class="fa-brands fa-instagram"></i>
                     </div>
-                    <!-- member 04 -->
-                    <div class="mx-auto">
-                        <img src="images/member4.png" alt="" class="mb-6">
-                        <h4 class="text-2xl font-bold text-white mb-4">Chaity</h4>
-                        <p class="text-white text-base font-medium mb-4">Fruits Expert</p>
-                        <div class="text-2xl text-white mx-auto">
-                            <i class="fa-brands fa-facebook mr-2"></i>
-                            <i class="fa-brands fa-twitter mr-2"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
+                  </div>
+                  <!-- member 04 -->
+                  <div class="mx-auto">
+                    <img src="images/member4.png" alt="" class="mb-6" />
+                    <h4 class="text-2xl font-bold text-white mb-4">Chaity</h4>
+                    <p class="text-white text-base font-medium mb-4">
+                      Fruits Expert
+                    </p>
+                    <div class="text-2xl text-white mx-auto">
+                      <i class="fa-brands fa-facebook mr-2"></i>
+                      <i class="fa-brands fa-twitter mr-2"></i>
+                      <i class="fa-brands fa-instagram"></i>
                     </div>
-                    
+                  </div>
                 </div>
-               
               </div>
             </div>
           </div>
@@ -453,6 +470,114 @@
         </div>
       </section>
       <!-- Meet the team section end -->
+
+
+      <!-- Why Choose Us section start -->
+      <section>
+            <!-- heading  -->
+            <div class="text-center">
+              <h2 class="text-[#121212] text-5xl font-extrabold mb-3 ">
+                Why Choose Us
+              </h2>
+              <p class="text-[#RRGGBBAA] text-xl">
+                Contrary to popular belief, is not simply random text. It has
+                roots in a piece of classical <br />
+                Latin literature from 45 BC, making it over 2000 years old.
+              </p>
+            </div>
+
+            <div class="flex my-10">
+
+            <div class="grid grid-rows-1 md:grid-rows-2 lg:grid-rows-3 flex-1">
+            <!-- card 01 -->
+            <div class="flex gap-x-5 items-center">
+              <div class="bg-[#1212121A] rounded-full p-5 text-2xl text-slate-500">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div>
+                <h4 class="text-[#121212] text-2xl font-extrabold">Dedicated Team</h4>
+                <hr class="w-24 text-black my-3">
+                <p class="text-[#12121299] text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+            <!-- card 02 -->
+            <div class="flex gap-x-5 items-center">
+              <div class="bg-[#1212121A] rounded-full p-5 text-2xl text-slate-500">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div>
+                <h4 class="text-[#121212] text-2xl font-extrabold">Fresh is Best</h4>
+                <hr class="w-24 text-black my-3">
+                <p class="text-[#12121299] text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+            <!-- card 03 -->
+            <div class="flex gap-x-5 items-center">
+              <div class="bg-[#1212121A] rounded-full p-5 text-2xl text-slate-500">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div>
+                <h4 class="text-[#121212] text-2xl font-extrabold">Gift Certificates</h4>
+                <hr class="w-24 text-black my-3">
+                <p class="text-[#12121299] text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+          </div>
+
+            <!-- img -->
+            <div class="flex-1">
+              <img src="./images/whychoose1.png" alt="">
+            </div>
+
+            <div class="grid grid-rows-1 md:grid-rows-2 lg:grid-rows-3 flex-1">
+            <!-- card 04 -->
+            <div class="flex gap-x-5 items-center">
+              <div class="bg-[#1212121A] rounded-full p-5 text-2xl text-slate-500">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div>
+                <h4 class="text-[#121212] text-2xl font-extrabold">Gift Certificates</h4>
+                <hr class="w-24 text-black my-3">
+                <p class="text-[#12121299] text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+
+            <!-- card 05 -->
+            <div class="flex gap-x-5 items-center">
+              <div class="bg-[#1212121A] rounded-full p-5 text-2xl text-slate-500">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div>
+                <h4 class="text-[#121212] text-2xl font-extrabold">Gift Certificates</h4>
+                <hr class="w-24 text-black my-3">
+                <p class="text-[#12121299] text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+
+
+            <!-- card 06 -->
+            <div class="flex gap-x-5 items-center">
+              <div class="bg-[#1212121A] rounded-full p-5 text-2xl text-slate-500">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div>
+                <h4 class="text-[#121212] text-2xl font-extrabold">Gift Certificates</h4>
+                <hr class="w-24 text-black my-3">
+                <p class="text-[#12121299] text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+          </div>
+
+      </section>
+      <!-- Why Choose Us section end -->
+
     </main>
   </body>
 </html>
